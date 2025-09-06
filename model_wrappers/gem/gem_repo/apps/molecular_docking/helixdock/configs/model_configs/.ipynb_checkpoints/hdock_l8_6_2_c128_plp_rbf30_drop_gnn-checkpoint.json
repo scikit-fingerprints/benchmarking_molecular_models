@@ -1,0 +1,15 @@
+{
+    "helixdock_block.protein_complex_attention": true,
+    "helixdock_e3_block.protein_complex_attention": true,
+    "helixdock_seq_block.protein_complex_attention": true,
+    "helixdock_seq_block_num": 2,
+    "helixdock_block.drop_gnn": true,
+    "helixdock_block.rbf_params.ligand_dist.end":30,
+    "helixdock_block.rbf_params.protein_dist.end":30,
+    "helixdock_e3_block.rbf_params.ligand_dist.end":30,
+    "helixdock_e3_block.rbf_params.protein_dist.end":30
+}
+
+
+
+

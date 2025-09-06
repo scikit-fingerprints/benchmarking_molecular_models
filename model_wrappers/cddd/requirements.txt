@@ -1,0 +1,6 @@
+numpy<=1.14.5
+pandas<=1.0.3
+tensorflow==1.10.0
+scikit-learn
+protobuf==3.19.0
+grpcio==1.27.2  # Add this line - this version is compatible with older Python/TF

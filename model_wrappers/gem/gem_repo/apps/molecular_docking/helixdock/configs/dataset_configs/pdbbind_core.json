@@ -1,0 +1,27 @@
+{
+    "test": {
+        "pdbbind_core" : {
+            "data_dir": "../data/PDBbind_v2020/complex/",
+            "label_file": "../data_info/INDEX_general_PL_data.2020",
+            "complex_id_file": "../data/PDBbind_v2020/complex_ids/casf_test.txt",
+            "cache_dir": "data/processed/pdbbind_core_processed",
+            "metric_type": "DTI",
+            "save_output": true,
+            "save_rmsd": true,
+            "output_num": 100,
+            "use_diffusion":true,
+            "diffusion_params": {
+                "beta_1": 1e-4,
+                "beta_T": 0.02,
+                "T": 1000,
+                "S": 20,
+                "eta": 0.0,
+                "mean_type": "xstart",
+                "normal_mean": 10.0,
+                "normal_std": 1.0
+            },
+            "label_mean": [0.0],
+            "label_std": [1.0]
+        }
+}
+}

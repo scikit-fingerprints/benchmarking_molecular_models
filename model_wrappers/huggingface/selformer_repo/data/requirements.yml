@@ -1,0 +1,20 @@
+name: SELFormer_env
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - pytorch=1.13.1
+  - transformers=4.26.1
+  - pyyaml=6.0
+  - yaml=0.2.5
+  - scikit-learn=1.2.1
+  - datasets=2.9.0
+  - chemprop=1.5.2
+  - tokenizers=0.13.2
+  - pip=22.3.1
+  - pip:
+    - simpletransformers==0.63.9
+    - pandarallel==1.6.4
+    - wandb==0.13.10
+    - selfies==2.1.1

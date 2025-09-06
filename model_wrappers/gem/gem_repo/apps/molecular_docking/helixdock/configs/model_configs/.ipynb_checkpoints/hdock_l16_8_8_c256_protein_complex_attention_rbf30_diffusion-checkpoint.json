@@ -1,0 +1,28 @@
+{
+    "helixdock_block.protein_complex_attention": true,
+    "helixdock_e3_block.protein_complex_attention": true,
+    "helixdock_seq_block.protein_complex_attention": true,
+    "helixdock_block.rbf_params.ligand_dist.end":30,
+    "helixdock_block.rbf_params.protein_dist.end":30,
+    "helixdock_seq_block.rbf_params.ligand_dist.end":30,
+    "helixdock_seq_block.rbf_params.protein_dist.end":30,
+    "helixdock_e3_block.rbf_params.ligand_dist.end":30,
+    "helixdock_e3_block.rbf_params.protein_dist.end":30,
+    "helixdock_e3_block.use_e3_center":false,
+    "init_ligand_atom_pos_name":"Diffusion",
+    "T":1000,
+    "ch":256,
+    "mean_type": "xstart",
+    "helixdock_seq_block_num": 0,
+    "helixdock_e3_block_num": 8,
+    "helixdock_block_num": 16,
+    "atom_channel": 256,
+    "edge_channel": 256,
+    "helixdock_block.ligand_cov_gnn.graph_feat_size": 256,
+    "helixdock_block.protein_cov_gnn.graph_feat_size": 256,
+    "helixdock_e3_block.ligand_cov_gnn.graph_feat_size": 256,
+    "helixdock_e3_block.protein_cov_gnn.graph_feat_size": 256,
+    "helixdock_seq_block.ligand_cov_gnn.graph_feat_size": 256,
+    "helixdock_seq_block.protein_cov_gnn.graph_feat_size": 256
+}
+

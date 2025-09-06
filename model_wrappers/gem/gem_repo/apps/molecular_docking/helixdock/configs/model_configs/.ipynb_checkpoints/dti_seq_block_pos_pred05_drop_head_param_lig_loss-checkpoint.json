@@ -1,0 +1,6 @@
+{
+      "model.heads.ligand_atom_pos_head.loss_scale":0.5,
+      "model.heads.ligand_atom_pos_head.use_ligand_dist_loss":true,
+      "drop_head_param":true
+}
+

@@ -1,0 +1,7 @@
+ml-collections
+tensorboardX
+pgl
+rdkit-pypi==2022.3.3
+paddlepaddle-gpu=2.4.1
+tqdm
+scikit-learn

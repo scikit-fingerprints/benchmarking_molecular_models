@@ -1,0 +1,7 @@
+numpy
+pandas
+networkx
+paddlepaddle>=2.0.0
+pgl>=2.1.5
+rdkit
+scikit-learn

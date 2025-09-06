@@ -1,0 +1,11 @@
+biopython==1.78
+biotite==0.40.0
+dataclasses==0.6
+paddle2onnx==1.2.5
+paddlefsl==1.1.0
+paddlenlp==2.7.2
+paddlepaddle==2.6.0
+paddlepaddle-gpu==2.6.1
+rouge-score==0.1.2
+tqdm==4.65.0
+nltk==3.8.1

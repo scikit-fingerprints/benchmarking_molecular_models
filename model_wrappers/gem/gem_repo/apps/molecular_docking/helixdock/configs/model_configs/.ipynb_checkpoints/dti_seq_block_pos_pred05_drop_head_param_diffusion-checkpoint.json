@@ -1,0 +1,7 @@
+{
+      "model.heads.ligand_atom_pos_head.loss_scale":0.5,
+      "drop_head_param":true,
+      "model.heads.ligand_atom_pos_head.use_diffusion":true,
+      "model.heads.ligand_atom_pos_head.mean_type":"xstart"
+}
+

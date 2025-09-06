@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - _self_
+
+hydra:
+  sweeper:
+    params:
+      +model_name: chemformer_augment.ckpt,chemformer_mask.ckpt,chemformer_combined.ckpt

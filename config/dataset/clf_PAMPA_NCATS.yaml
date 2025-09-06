@@ -1,0 +1,7 @@
+name: PAMPA_NCATS
+metric: roc_auc
+task: classification
+
+source:
+  name: TDC
+  group: ADME

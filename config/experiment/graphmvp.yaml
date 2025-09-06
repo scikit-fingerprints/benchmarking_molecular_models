@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - _self_
+
+hydra:
+  # verbose: true
+  sweeper:
+    params:
+      # +model_name: GraphMVP_CP-max,GraphMVP_CP-sum,GraphMVP_CP-mean,GraphMVP_AM-max,GraphMVP_AM-sum,GraphMVP_AM-mean
+      +model: glob(graphmvp_gnn_*)
+

@@ -1,0 +1,7 @@
+name: SARSCoV2_3CLPro_Diamond
+metric: roc_auc
+task: classification
+
+source:
+  name: TDC
+  group: HTS

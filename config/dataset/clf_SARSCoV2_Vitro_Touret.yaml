@@ -1,0 +1,7 @@
+name: SARSCoV2_Vitro_Touret
+metric: roc_auc
+task: classification
+
+source:
+  name: TDC
+  group: HTS

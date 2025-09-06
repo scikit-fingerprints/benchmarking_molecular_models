@@ -1,0 +1,11 @@
+defaults:
+  - embedding: default
+  - _self_
+
+cache: true
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      +dataset: glob(*,exclude=large*)

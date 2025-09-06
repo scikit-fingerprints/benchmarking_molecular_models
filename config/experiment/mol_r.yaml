@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - _self_
+
+hydra:
+  sweeper:
+    params:
+      +model_name: mol_r_gat_1024,mol_r_gcn_1024,mol_r_sage_1024,mol_r_tag_1024

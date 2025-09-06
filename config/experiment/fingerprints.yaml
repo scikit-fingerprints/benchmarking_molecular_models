@@ -1,0 +1,12 @@
+# @package _global_
+
+defaults:
+  # - override /hydra/launcher: joblib
+  - _self_
+
+hydra:
+  # launcher:
+    # n_jobs: 16
+  sweeper:
+    params:
+      +model: glob(fingerprints_*)

@@ -1,0 +1,52 @@
+.venv/
+.hydra/
+.idea/
+
+/data/
+/dataset/
+outputs/
+model_weights/
+multirun/
+
+debug.ipynb
+debug.py
+
+# Venv
+**/venv/
+
+# file types
+*.log
+*.zip
+
+# Model weights
+**/SELFormer/
+**/Selformer-Lite/
+*.ckpt
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+### Torch models ###
+*.pth
+*.pt
+
+### Output images ###
+*.png
+*.svg
+
+### Output files ###
+*.db
+*.csv
+!results/*.db
+!results/*.csv
+

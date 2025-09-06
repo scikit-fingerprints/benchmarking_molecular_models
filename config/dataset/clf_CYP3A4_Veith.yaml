@@ -1,0 +1,8 @@
+name: CYP3A4_Veith
+metric: roc_auc
+task: classification
+
+source:
+  name: TDC
+  benchmark: admet
+  group: ADME

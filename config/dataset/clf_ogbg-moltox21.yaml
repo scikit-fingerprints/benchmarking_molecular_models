@@ -1,0 +1,8 @@
+name: ogbg-moltox21
+metric: roc_auc
+task: classification
+
+memory_weight: 4
+
+source:
+  name: OGB

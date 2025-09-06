@@ -1,0 +1,11 @@
+defaults:
+  - embedding: default
+  - _self_
+
+n_trials: 5
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      +dataset: glob(AMES)

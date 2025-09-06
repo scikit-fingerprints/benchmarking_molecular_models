@@ -1,0 +1,17 @@
+defaults:
+  - embedding: default
+  - _self_
+
+cache: true
+illegal_smiles: config/illegal_smiles.txt
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      +dataset: glob(*,exclude=[large*])
+      # +dataset: glob(ogbg-molbbbp)
+      # +dataset: glob(*)
+      # +dataset: glob(clf_DILI)
+      # +dataset: glob(clf_ogbg-molhiv)
+

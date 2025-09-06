@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  # - override /hydra/launcher: joblib
+  - _self_
+
+hydra:
+  # launcher:
+  #   n_jobs: 2
+  sweeper:
+    params:
+      +model_name: mat_masking_200k,mat_masking_2M,mat_masking_20M,grover_base,grover_large,rmat_4M

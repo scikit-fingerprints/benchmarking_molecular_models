@@ -1,0 +1,23 @@
+defaults:
+  - embedding: default
+  - override /hydra/launcher: joblib
+
+
+cache: true
+
+hydra:
+  mode: MULTIRUN
+  launcher:
+    n_jobs: 8
+  sweeper:
+    params:
+      # +dataset: glob(clf_*,exclude=[large*,*toxcast*,*Solubility_AqSolDB*])
+      # +dataset: glob(clf_*,exclude=[large*,*molclintox*,*molmuv*,*molsider*,*tox21*,*toxcast*,*hiv*])
+      # +dataset: glob([clf_ogbg-molclintox,clf_ogbg-molsider,clf_ogbg-moltox21,clf_ogbg-molmuv])
+      # +dataset: glob([clf_ogbg-molclintox,clf_ogbg-molsider,clf_ogbg-moltox21])
+      # +dataset: glob(clf_DILI)
+      +dataset: glob(clf_ogbg-molhiv)
+      # +dataset: glob(clf_ogbg-molclintox)
+      # +dataset: glob(clf_ogbg-molmuv)
+      # +dataset: glob(Solu*)
+      # +dataset: glob(*CYP1A2_V*)

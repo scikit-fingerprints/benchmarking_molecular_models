@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - _self_
+
+hydra:
+  sweeper:
+    params:
+      +model_name: GraphFP-C,GraphFP-CP #,GraphFP-CPF

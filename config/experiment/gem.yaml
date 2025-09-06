@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /hydra/launcher: joblib
+  - _self_
+
+model_name: GEM
+
+hydra:
+  launcher:
+    n_jobs: 16
